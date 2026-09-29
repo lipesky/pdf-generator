@@ -1,0 +1,27 @@
+{
+  "name": "pdf-template-designer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Visual template designer and live previewer for HTML-to-PDF reports",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.2.3",
+    "@types/lodash": "^4.17.13",
+    "axios": "^1.7.7",
+    "lodash": "^4.17.21",
+    "primeflex": "^3.3.1",
+    "primevue": "^4.2.3",
+    "vue": "^3.5.12",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.10"
+  }
+}
